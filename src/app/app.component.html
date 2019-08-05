@@ -1,1 +1,1 @@
-<ap-photo description="leao" url=""></ap-photo>
+<ap-photo *ngFor="let photo of photos" [description]="photo.description" [url]="photo.url"></ap-photo>
